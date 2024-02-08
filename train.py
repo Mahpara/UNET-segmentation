@@ -56,7 +56,7 @@ writer = SummaryWriter()
 step = 0
 
 def train_fn(loader, model, optimizer, loss_fn, scaler, epoch):
-    # global global_writer_step 
+    #global global_writer_step 
     loop = tqdm(loader)
     
     for batch_idx, (data, targets) in enumerate(loop):
