@@ -144,7 +144,7 @@ def main():
         
         # check accuracy
         check_accuracy(val_loader, model, device=DEVICE, epoch=epoch)
-        #writer.add_scalar('Accuracy', acc, epoch) # changed here ====================
+        #writer.add_scalar('Accuracy', acc, epoch)
         #writer.flush()
 
         
